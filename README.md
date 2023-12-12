@@ -1,3 +1,6 @@
+## Umístění souboru
+mkdir /var/py_cron/
+mkdir /var/py_cron/daily_post_iris
 ## Instalace knihoven
 pip3 install requests
 ## Vytvoření CRONu
