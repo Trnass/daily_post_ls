@@ -18,7 +18,7 @@ response = session.post(login_url, data=credentials)
 if response.ok:
     print("Přihlášení bylo úspěšné.")
 
-    char_url = 'https://artic.leosight.cz/chars/17367'
+    char_url = f'https://artic.leosight.cz/chars/{db_id}'
     response = session.get(char_url)
     iris_url = 'https://artic.leosight.cz/www/iris.ic/'
     response = session.get(iris_url)
